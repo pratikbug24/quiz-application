@@ -484,3 +484,16 @@ function submitQuiz() {
     // You can replace this with your code to submit the quiz automatically
     console.log('Quiz submitted automatically');
 }
+
+// Show submit button at the end of the quiz
+if (this.currentque >= totalque) {
+    // Show submit button
+    $('#next').hide();
+    $('#submit').show();
+    // Rest of the code to display result...
+}
+
+$('#submit').click(function(e) {
+    e.preventDefault();
+    submitQuiz();
+});

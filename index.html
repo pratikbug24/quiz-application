@@ -26,9 +26,15 @@
 <div class="option-block-container" id="question-options">
 </div> <!-- End of option block -->
 </fieldset>
-<button name="previous" id="previous" class="btn btn-success">Previous</button>
-&nbsp;
-<button name="next" id="next" class="btn btn-success">Next</button>
+<div id="timer"></div>
+    <div id="quiz">
+        <div id="question-options"></div>
+        <button id="previous" class="btn btn-secondary">Previous</button>
+        <button id="next" class="btn btn-primary">Next</button>
+        <button id="submit" class="btn btn-success" style="display: none;">Submit Quiz</button>
+        <div id="result"></div>
+    </div>
+</div>
 </form>
 <div id="timer">Time Remaining: 5m 0s</div>
 
