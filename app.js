@@ -459,3 +459,28 @@ jsq.checkAnswer(selectedopt);
 }
 jsq.changeQuestion(-1);
 });
+
+var totalTimeInSeconds = 5 * 60;
+
+// Function to update the timer
+function updateTimer() {
+    var minutes = Math.floor(totalTimeInSeconds / 60);
+    var seconds = totalTimeInSeconds % 60;
+    document.getElementById('timer').innerHTML = 'Time Remaining: ' + minutes + 'm ' + seconds + 's';
+    totalTimeInSeconds--;
+    
+    // Check if time is up
+    if (totalTimeInSeconds < 0) {
+        clearInterval(timerInterval); // Stop the timer
+        submitQuiz(); // Automatically submit the quiz
+    }
+}
+
+// Start the timer
+var timerInterval = setInterval(updateTimer, 1000);
+
+// Function to submit the quiz
+function submitQuiz() {
+    // You can replace this with your code to submit the quiz automatically
+    console.log('Quiz submitted automatically');
+}
