@@ -4,145 +4,31 @@ var quiz = {
 "JS": [
 {
 "id": 1,
-"question": "Inside which HTML element do we put the JavaScript?",
+"question": "Who is the father of C language?",
 "options": [
 {
-"a": "&lt;script&gt;",
-"b": "&lt;javascript&gt;",
-"c": "&lt;scripting&gt;",
-"d": "&lt;js&gt;"
+"a": "Steve Jobs;",
+"b": "James Gosling",
+"c": "Rasmus Lerdorf",
+"d": "Dennis Ritchie"
 }
 ],
-"answer": "&lt;script&gt;",
+"answer": "Dennis Ritchie",
 "score": 0,
 "status": ""
 },
 {
 "id": 2,
-"question": "Where is the correct place to insert a JavaScript?",
+"question": "Which of the following is not a valid C variable name?",
 "options": [
 {
-"a": "The &lt;head&gt; section",
-"b": "The &lt;body&gt; section",
-"c": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct"
+"a": "int number;",
+"b": "int variable_count;",
+"c": "int $main;",
+"d": " float rate;"
 }
 ],
-"answer": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
-"score": 0,
-"status": ""
-},
-{
-"id": 3,
-"question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-"options": [
-{
-"a": "&ltscript href=&quot;xxx.js&quot;>",
-"b": "&lt;script name=&quot;xxx.js&quot;&gt;",
-"c": "&lt;script src=&quot;xxx.js&quot;&gt;"
-}
-],
-"answer": "&lt;script src=&quot;xxx.js&quot;&gt;",
-"score": 0,
-"status": ""
-},
-{
-"id": 4,
-"question": "The external JavaScript file must contain the &lt;script&gt; tag.",
-"options": [
-{
-"a": "True",
-"b": "False"
-}
-],
-"answer": "False",
-"score": 0,
-"status": ""
-},
-{
-"id": 5,
-"question": "How do you write &quot;Hello World&quot; in an alert box?",
-"options": [
-{
-"a": "alertBox(&quot;Hello World&quot;);",
-"b": "msg(&quot;Hello World&quot;);",
-"c": "alert(&quot;Hello World&quot;);",
-"d": "msgBox(&quot;Hello World&quot;);",
-}
-],
-"answer": "alert(&quot;Hello World&quot;);",
-"score": 0,
-"status": ""
-},
-{
-"id": 6,
-"question": "How do you create a function in JavaScript?",
-"options": [
-{
-"a": "function myFunction()",
-"b": "function:myFunction()",
-"c": "function = myFunction()",
-}
-],
-"answer": "function myFunction()",
-"score": 0,
-"status": ""
-},
-{
-"id": 7,
-"question": "How do you call a function named &quot;myFunction&quot;?",
-"options": [
-{
-"a": "call function myFunction()",
-"b": "call myFunction()",
-"c": "myFunction()",
-}
-],
-"answer": "myFunction()",
-"score": 0,
-"status": ""
-},
-{
-"id": 8,
-"question": "How to write an IF statement in JavaScript?",
-"options": [
-{
-"a": "if i = 5 then",
-"b": "if i == 5 then",
-"c": "if (i == 5)",
-"d": " if i = 5",
-}
-],
-"answer": "if (i == 5)",
-"score": 0,
-"status": ""
-},
-{
-"id": 9,
-"question": "Which of the following is a disadvantage of using JavaScript?",
-"options": [
-{
-"a": "Client-side JavaScript does not allow the reading or writing of files.",
-"b": "JavaScript can not be used for Networking applications because there is no such support available.",
-"c": "JavaScript doesn't have any multithreading or multiprocess capabilities.",
-"d": "All of the above."
-}
-],
-"answer": "All of the above.",
-"score": 0,
-"status": ""
-},
-{
-"id": 10,
-"question": "How to write an IF statement for executing some code if &quot;i&quot; is NOT equal to 5?",
-"options": [
-{
-"a": "if (i <> 5)",
-"b": "if i <> 5",
-"c": "if (i != 5)",
-"d": "if i =! 5 then",
-}
-],
-"answer": "if (i != 5)",
+"answer": "int $main;",
 "score": 0,
 "status": ""
 },
@@ -155,6 +41,12 @@ this.currentque = 0;
 var totalque = quiz.JS.length;
 this.displayQuiz = function (cque) {
 this.currentque = cque;
+if (this.currentque >= totalque) {
+    // Show submit button
+    $('#next').hide();
+    $('#submit').show();
+    // Rest of the code to display result...
+}
 if (this.currentque < totalque) {
 $("#tque").html(totalque);
 $("#previous").attr("disabled", false);
@@ -273,7 +165,7 @@ function submitQuiz() {
 }
 
 // Show submit button at the end of the quiz
-if (this.currentque >= totalque) {
+if (this.currentque = totalque) {
     // Show submit button
     $('#next').hide();
     $('#submit').show();
