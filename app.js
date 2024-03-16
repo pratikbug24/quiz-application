@@ -31,7 +31,7 @@ var quiz = {
 "answer": "int $main;",
 "score": 0,
 "status": ""
-},
+}
 ]
 }
 var quizApp = function () {
