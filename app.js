@@ -31,7 +31,68 @@ var quiz = {
 "answer": "int $main;",
 "score": 0,
 "status": ""
-}
+},
+{
+    "id": 3,
+    "question": "What is #include <stdio.h>?",
+    "options": [
+    {
+    "a": " Preprocessor directive",
+    "b": "File inclusion directive",
+    "c": "header file",
+    "d": "Non of those"
+    }
+    ],
+    "answer": "header file",
+    "score": 0,
+    "status": ""
+    },
+    {
+        "id": 4,
+        "question": "In C language, FILE is of which data type?",
+        "options": [
+        {
+        "a": " int",
+        "b": "char *",
+        "c": "struct",
+        "d": "None of the mentioned"
+        }
+        ],
+        "answer": "struct",
+        "score": 0,
+        "status": ""
+        },
+        {
+            "id": 5,
+            "question": "What is the sizeof(char) in a 32-bit C compiler?",
+            "options": [
+            {
+            "a": "1 bit",
+            "b": "2 bits",
+            "c": "1 Byte",
+            "d": "2 Bytes"
+            }
+            ],
+            "answer": "1 Byte",
+            "score": 0,
+            "status": ""
+            },
+            {
+                "id": 6,
+                "question": "What is the sizeof(char) in a 32-bit C compiler?",
+                "options": [
+                {
+                "a": "1 bit",
+                "b": "2 bits",
+                "c": "1 Byte",
+                "d": "2 Bytes"
+                }
+                ],
+                "answer": "1 Byte",
+                "score": 0,
+                "status": ""
+                },
+               
 ]
 }
 var quizApp = function () {

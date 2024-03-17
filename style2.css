@@ -1,0 +1,10 @@
+li{
+    display:inline;
+    color:white;
+    padding-left:100px;
+    height:30px;
+    list-style-type:none;
+    }
+    .a{
+        display: flex;
+    }
