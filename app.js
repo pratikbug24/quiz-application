@@ -200,7 +200,7 @@ jsq.checkAnswer(selectedopt);
 jsq.changeQuestion(-1);
 });
 
-var totalTimeInSeconds = 30 * 60;
+var totalTimeInSeconds = 20 * 60;
 
 // Function to update the timer
 function updateTimer() {
