@@ -8,3 +8,39 @@ li{
     .a{
         display: flex;
     }
+
+    body{
+        background-color: black;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        color: white;
+    }
+
+    .b{
+        color: orange;
+    }
+
+    button{
+        height: 50px;
+    }
+
+    .st{
+        padding-top: 20px;
+    }
+
+  button{
+    background-color: aqua;
+  }
+
+  a{
+    color: aqua;
+  }
+
+  h2{
+    background-color:white;
+    align-items: center;
+  }
+
+  
