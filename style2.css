@@ -14,33 +14,47 @@ li{
         background-repeat: no-repeat;
     }
 
+    .img{
+        display: flex;
+    }
+
     h1{
         color: white;
     }
 
     .b{
-        color: orange;
+        color: rgb(241, 126, 12);
+        font-size: 90px;
+        padding-left: 610px;
     }
 
     button{
-        height: 50px;
+        height: 60px;
+        width: 180px;
     }
 
     .st{
-        padding-top: 20px;
+        padding-top: 200px;
     }
 
   button{
-    background-color: aqua;
+   
   }
 
   a{
-    color: aqua;
+  padding-bottom: 50px;
   }
 
   h2{
     background-color:white;
     align-items: center;
   }
+  .k{
+    font-size: 100px;
+    color: rgb(255, 251, 251);
+  }
+button:hover{
+    background-color: green;
+}
 
   
