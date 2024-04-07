@@ -88,7 +88,7 @@ var quiz = {
                 "d": "Compiler"
                 }
                 ],
-                "answer": "Header Files",
+                "answer": "Header File",
                 "score": 0,
                 "status": ""
                 },
