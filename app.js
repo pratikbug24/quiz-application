@@ -358,7 +358,12 @@ res = '<span class="wrong">' + quiz.JS[j].score + '</span><i class="fa fa-remove
 } else {
 res = '<span class="correct">' + quiz.JS[j].score + '</span><i class="fa fa-check c-correct"></i>';
 }
-
+$("#result").append(
+'<div class="result-question"><span>Q ' + quiz.JS[j].id + '</span> &nbsp;' + quiz.JS[j].question + '</div>' +
+'<div><b>Correct answer:</b> &nbsp;' + quiz.JS[j].answer + '</div>' +
+'<div class="last-row"><b>Score:</b> &nbsp;' + res +
+'</div>'
+);
 }
 }
 this.checkAnswer = function (option) {
