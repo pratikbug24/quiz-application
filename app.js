@@ -387,8 +387,8 @@ this.displayQuiz(this.currentque);
 }
 var jsq = new quizApp();
 var selectedopt;
-$(document).ready(function () {
-jsq.disnge', 'input[type=radio][name=option]', function (e) {
+jsq.displayQuiz(0);
+$('#question-options').on('change', 'input[type=radio][name=option]', function (e) {
 //var radio = $(this).find('input:radio');
 $(this).prop("checked", true);
 selectedopt = $(this).val();
