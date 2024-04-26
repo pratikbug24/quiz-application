@@ -43,7 +43,7 @@ var quiz = {
     "d": "बनारस विद्यापीठ"
     }
     ],
-    "answer": "header file",
+    "answer": "कोलंबिया विद्यापीठ",
     "score": 0,
     "status": ""
     },
@@ -163,7 +163,7 @@ var quiz = {
                                     "d": "डिस्कव्हरी ऑफ इंडिया"
                                     }
                                     ],
-                                    "answer": "",
+                                    "answer": "मानवी हक्क",
                                     "score": 0,
                                     "status": ""
                                     },
