@@ -103,7 +103,7 @@ var quiz = {
                     "d": "बाबुराव बागुल"
                     }
                     ],
-                    "answer": "-2147483648 to +2147483647",
+                    "answer": "",
                     "score": 0,
                     "status": ""
                     },
@@ -148,7 +148,7 @@ var quiz = {
                                 "d": "डिस्कव्हरी ऑफ इंडिया"
                                 }
                                 ],
-                                "answer": "main",
+                                "answer": "",
                                 "score": 0,
                                 "status": ""
                                 },
@@ -163,7 +163,7 @@ var quiz = {
                                     "d": "डिस्कव्हरी ऑफ इंडिया"
                                     }
                                     ],
-                                    "answer": "Input of Function",
+                                    "answer": "",
                                     "score": 0,
                                     "status": ""
                                     },
@@ -178,7 +178,7 @@ var quiz = {
                                         "d": "समानता हायस्कूल"
                                         }
                                         ],
-                                        "answer": "Call by Reference",
+                                        "answer": "",
                                         "score": 0,
                                         "status": ""
                                         },
@@ -193,7 +193,7 @@ var quiz = {
                                             "d": "अर्थशास्त्र"
                                             }
                                             ],
-                                            "answer": "Collection of same or different data type",
+                                            "answer": "",
                                             "score": 0,
                                             "status": ""
                                             },
@@ -208,7 +208,7 @@ var quiz = {
                                                 "d": "शाहू महाराज"
                                                 }
                                                 ],
-                                                "answer": "b.var;",
+                                                "answer": "",
                                                 "score": 0,
                                                 "status": ""
                                                 },
@@ -223,7 +223,7 @@ var quiz = {
                                                     "d": "१४ मार्च १८९१"
                                                     }
                                                     ],
-                                                    "answer": "struct a_struct {int a;};",
+                                                    "answer": "",
                                                     "score": 0,
                                                     "status": ""
                                                     },
@@ -238,7 +238,7 @@ var quiz = {
                                                         "d": "समता"
                                                         }
                                                         ],
-                                                        "answer": "User defined data type",
+                                                        "answer": "",
                                                         "score": 0,
                                                         "status": ""
                                                         },
@@ -253,7 +253,7 @@ var quiz = {
                                                             "d": "कायदा",
                                                             }
                                                             ],
-                                                            "answer": "8 bytes",
+                                                            "answer": "",
                                                             "score": 0,
                                                             "status": ""
                                                             },
@@ -268,7 +268,7 @@ var quiz = {
                                                                 "d": "मुंबई"
                                                                 }
                                                                 ],
-                                                                "answer": "32",
+                                                                "answer": "",
                                                                 "score": 0,
                                                                 "status": ""
                                                                 },
@@ -283,7 +283,7 @@ var quiz = {
                                                                     "d": "1926"
                                                                     }
                                                                     ],
-                                                                    "answer": "a=35",
+                                                                    "answer": "",
                                                                     "score": 0,
                                                                     "status": ""
                                                                     },
@@ -298,7 +298,7 @@ var quiz = {
                                                                         "d": "राष्ट्रप्रमुख"
                                                                         }
                                                                         ],
-                                                                        "answer": "a=5",
+                                                                        "answer": "",
                                                                         "score": 0,
                                                                         "status": ""
                                                                         },
