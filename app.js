@@ -14,7 +14,7 @@ var quiz = {
 "d": "१२जुलै १९२४"
 }
 ],
-"answer": "Dennis Ritchie",
+"answer":  "२०जुलै १९२४",
 "score": 0,
 "status": ""
 },
@@ -29,7 +29,7 @@ var quiz = {
 "d": " बौद्ध धर्माचा स्वीकार"
 }
 ],
-"answer": "int $main;",
+"answer": "बौद्ध धर्माचा स्वीकार;",
 "score": 0,
 "status": ""
 },
@@ -59,8 +59,8 @@ var quiz = {
         "d": "समता भूमी"
         }
         ],
-        "answer": "struct",
-        "score": 0,
+        "answer": "बुद्धभूमी"     
+         "score": 0,
         "status": ""
         },
         {
@@ -74,7 +74,7 @@ var quiz = {
             "d": "महाड"
             }
             ],
-            "answer": "1 Byte",
+            "answer": "नागपूर",
             "score": 0,
             "status": ""
             },
@@ -89,7 +89,7 @@ var quiz = {
                 "d": "बहिष्कृत हितकारणी पक्ष"
                 }
                 ],
-                "answer": "Header Files",
+                "answer": "बहिष्कृत हितकारणी पक्ष"
                 "score": 0,
                 "status": ""
                 },
