@@ -103,7 +103,7 @@ var quiz = {
                     "d": "बाबुराव बागुल"
                     }
                     ],
-                    "answer": "",
+                    "answer": "पू.ल.देशपांडे",
                     "score": 0,
                     "status": ""
                     },
@@ -118,7 +118,7 @@ var quiz = {
                         "d": "अर्थ मंत्री"
                         }
                         ],
-                        "answer": "2 bytes",
+                        "answer": "कायदा आणि न्याय मंत्री",
                         "score": 0,
                         "status": ""
                         },
@@ -133,7 +133,7 @@ var quiz = {
                             "d": "६ डिसेंबर१९५२"
                             }
                             ],
-                            "answer": "97",
+                            "answer": "६ डिसेंबर १९५६",
                             "score": 0,
                             "status": ""
                             },
@@ -148,7 +148,7 @@ var quiz = {
                                 "d": "डिस्कव्हरी ऑफ इंडिया"
                                 }
                                 ],
-                                "answer": "",
+                                "answer": "बुद्धा अँड हिज धम्मा",
                                 "score": 0,
                                 "status": ""
                                 },
@@ -178,7 +178,7 @@ var quiz = {
                                         "d": "समानता हायस्कूल"
                                         }
                                         ],
-                                        "answer": "",
+                                        "answer": "महाराष्ट्र हायस्कूल",
                                         "score": 0,
                                         "status": ""
                                         },
@@ -193,7 +193,7 @@ var quiz = {
                                             "d": "अर्थशास्त्र"
                                             }
                                             ],
-                                            "answer": "",
+                                            "answer": "अर्थशास्त्र",
                                             "score": 0,
                                             "status": ""
                                             },
@@ -208,7 +208,7 @@ var quiz = {
                                                 "d": "शाहू महाराज"
                                                 }
                                                 ],
-                                                "answer": "",
+                                                "answer": "शाहू महाराज",
                                                 "score": 0,
                                                 "status": ""
                                                 },
@@ -223,7 +223,7 @@ var quiz = {
                                                     "d": "१४ मार्च १८९१"
                                                     }
                                                     ],
-                                                    "answer": "",
+                                                    "answer": "१४ एप्रिल १८९१",
                                                     "score": 0,
                                                     "status": ""
                                                     },
@@ -238,7 +238,7 @@ var quiz = {
                                                         "d": "समता"
                                                         }
                                                         ],
-                                                        "answer": "",
+                                                        "answer": "समता",
                                                         "score": 0,
                                                         "status": ""
                                                         },
@@ -253,7 +253,7 @@ var quiz = {
                                                             "d": "कायदा",
                                                             }
                                                             ],
-                                                            "answer": "",
+                                                            "answer": "वित्त",
                                                             "score": 0,
                                                             "status": ""
                                                             },
@@ -268,7 +268,7 @@ var quiz = {
                                                                 "d": "मुंबई"
                                                                 }
                                                                 ],
-                                                                "answer": "",
+                                                                "answer": "महाड",
                                                                 "score": 0,
                                                                 "status": ""
                                                                 },
@@ -283,7 +283,7 @@ var quiz = {
                                                                     "d": "1926"
                                                                     }
                                                                     ],
-                                                                    "answer": "",
+                                                                    "answer": "1926",
                                                                     "score": 0,
                                                                     "status": ""
                                                                     },
@@ -298,7 +298,7 @@ var quiz = {
                                                                         "d": "राष्ट्रप्रमुख"
                                                                         }
                                                                         ],
-                                                                        "answer": "",
+                                                                        "answer": "युगप्रवर्तक",
                                                                         "score": 0,
                                                                         "status": ""
                                                                         },
