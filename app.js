@@ -283,7 +283,7 @@ var quiz = {
                                                                     "d": "1926"
                                                                     }
                                                                     ],
-                                                                    "answer": "1926",
+                                                                    "answer": "1920",
                                                                     "score": 0,
                                                                     "status": ""
                                                                     },
